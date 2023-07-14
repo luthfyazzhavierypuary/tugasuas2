@@ -1,0 +1,37 @@
+//Luthfy Azh Zhaviery Puary
+//227064516123
+
+public class class1 {
+    String NIP;
+    String nama;
+    String jeniskelamin;
+    int jmlhhari;
+    int totalGaji;
+    
+    void employe() {
+        System.out.println("NIP  : " + NIP);
+        System.out.println("Nama : " + nama);
+        System.out.println("Jenis Kelamin : " + jeniskelamin);
+    }
+    
+    void dailyabsen() {
+        System.out.println("Daily absen   : " + jmlhhari);  
+    }
+    
+    void sallary() {
+        System.out.println("Employee sallary : " + (jmlhhari * 50000));
+    }
+}
+    class Dosen extends class1 {
+        String golongan;
+        int jmlhSKS;
+        int upahperSKS;
+        
+       
+        @Override
+    void sallary () {
+        System.out.println("Dosen sallary : " + (upahperSKS * jmlhSKS * jmlhhari));
+    }    
+}
+class staff extends class1{
+}
