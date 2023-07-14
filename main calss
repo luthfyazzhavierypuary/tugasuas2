@@ -1,0 +1,41 @@
+//Luthfy Azh Zhaviery Puary
+//227064516123
+public class main1 {
+
+
+    public static void main(String[] args) {
+        
+        class1 employee = new class1();
+        employee.NIP = "silverpiero69";
+        employee.nama = "Luthfy Azh Zhaviery";
+        employee.jeniskelamin = "Male";
+        employee.jmlhhari = 31;
+        employee.employe();
+        employee.dailyabsen();
+        employee.sallary();
+        System.out.println("");
+        
+        Dosen lecture2 = new Dosen();
+        lecture2.NIP = "DhiekaBl666";
+        lecture2.nama = "Dhieka";
+        lecture2.jeniskelamin = "Male";
+        lecture2.jmlhhari = 15;
+        lecture2.golongan = "G666";
+        lecture2.jmlhSKS = 5;
+        lecture2.upahperSKS = 300000;
+        lecture2.employe();
+        lecture2.dailyabsen();
+        lecture2.sallary();
+        System.out.println("");
+        
+        staff staff3 = new staff();
+        staff3.NIP = "Novan134";
+        staff3.nama = "Novi Andarista";
+        staff3.jeniskelamin = "Female";
+        staff3.jmlhhari = 31;
+        staff3.employe();
+        staff3.dailyabsen();
+        staff3.sallary();
+        System.out.println("");
+    } 
+}
